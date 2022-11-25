@@ -32,9 +32,9 @@ function App() {
     }
   return(
       <>
-              <MyNav/>
-              <Component/>
-              <MyFooter/>
+          <MyNav/>
+          <Component/>
+          <MyFooter/>
       </>
   )
 }
