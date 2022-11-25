@@ -1,0 +1,74 @@
+.whoAmI{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: auto;
+
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.myIntro{
+    font-size: 4vh;
+    text-align: center;
+    margin-bottom: 4vh;
+    color: #343a40;
+}
+
+.whoAmI div{
+    /*height: 75vh;*/
+}
+
+.whoAmI img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: all 0.35s ease-in-out;
+}
+
+.whoAmI img:hover{
+    opacity: .8;
+    scale: 1.01;
+}
+
+.whoAmI .leftImg{
+    flex: 0 0 auto;
+    width:50%;
+    overflow: hidden;
+}
+
+.whoAmI .rightImg{
+    flex: 0 0 auto;
+    width:50%;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 850px) {
+    .whoAmI{
+        flex-flow: row wrap;
+    }
+
+    .whoAmI .leftImg{
+        width: 100%;
+        z-index: 0;
+        display: block;
+    }
+
+    .whoAmI .rightImg{
+        width: 100%;
+        z-index: 0;
+        display: block;
+    }
+}
+
+.ctaBtns div{
+   justify-content: center;
+}
+
+.ctaBtns Button{
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 40px;
+}

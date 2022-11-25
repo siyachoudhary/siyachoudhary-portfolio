@@ -1,0 +1,96 @@
+.navTop{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+.nav-link{
+    color: white;
+    margin: 15px;
+    transition: all 0.35s ease-in-out;
+}
+
+.nav-link:hover{
+    opacity: .4;
+}
+
+.nav-link.active{
+    opacity: .4;
+}
+
+.navbar-nav .dropdown-menu{
+    transition: all 0.35s ease-in-out;
+}
+
+.myLogo{
+    transition: all 0.35s ease-in-out;
+}
+
+.myLogo img{
+    margin-right: 1.5vh;
+}
+
+.myLogo:hover{
+    opacity: .5;
+}
+
+.myName{
+    font-size: 2.5vh;
+    text-decoration: none;
+    color: white;
+    transition: all 0.35s ease-in-out;
+}
+
+.myName:hover{
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    .myName {
+        visibility: hidden;
+    }
+}
+
+.footerText{
+    color: #9d9d9d;
+    font-size: 15px;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #9d9d9d;
+    padding: 25px 0 25px 0;
+    margin-top: 25px;
+    box-shadow: -2px -2px 10px 5px rgba(86, 86, 86, 0.2);
+    flex-wrap: inherit;
+}
+
+.footerContainer ul a{
+    color: #9d9d9d;
+}
+.footerContainer ul a:hover{
+    color: #000000;
+}
+
+.navbar ul{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin: 18px;
+    padding: 0px;
+}
+
+ul a{
+    color: white;
+    transition: all 0.35s ease-in-out;
+}
+
+ul a:hover{
+    color: white;
+    opacity: 0.4;
+}

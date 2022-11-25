@@ -1,0 +1,206 @@
+.myCard{
+    display: flex;
+}
+
+.card {
+    position: relative;
+    width: calc(100% - 20px);
+    min-height: 80vh;
+    border: none;
+    border-bottom: 1px solid #d2d2d2;
+    border-radius: 0;
+    padding: 15px;
+    margin: 0;
+}
+
+.card .imgBx {
+    width: 50%;
+    height: 100%;
+}
+.card .imgBx img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card .details {
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .details .content {
+    padding: 5%;
+    box-sizing: border-box;
+}
+.card .details .content h2 {
+    margin: 10px 0px 30px;
+    padding: 0;
+    font-size: 9vh;
+    line-height: 0.85em;
+    font-weight: 600;
+}
+.card .details .content h4 {
+    padding: 0;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #3d3d3d;
+    font-weight: 200;
+}
+
+.card .details .content h4 span {
+    font-size: 25px;
+    line-height: 1.5rem;
+    color: #9d9d9d;
+}
+
+@media (max-width: 1300px) {
+    .container {
+        width: 100%;
+    }
+
+    .card .imgBx {
+        position: relative;
+        width: 100%;
+        height: 500px;
+    }
+
+    .card .details {
+        position: relative;
+        width: 100%;
+    }
+}
+@media (max-width: 991px) {
+    .card {
+        width: calc(70% - 20px);
+        margin: 10px auto;
+    }
+
+    .card .imgBx {
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+
+    .card .details {
+        position: relative;
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .card {
+        width: calc(70% - 20px);
+        margin: 10px auto;
+    }
+    .card .imgBx {
+        position: relative;
+        width: 100%;
+        height: 400px;
+    }
+    .card .details {
+        position: relative;
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .card {
+        width: calc(100% - 40px);
+        margin: 10px auto;
+    }
+}
+
+.card .imgBx{
+    overflow: hidden;
+}
+
+.card .imgBx img{
+    transition: all 0.35s ease-in-out;
+}
+
+
+.card .imgBx img:hover{
+    scale: 1.1;
+}
+
+.awardsTitle{
+    font-size: 450%;
+    text-align: left;
+}
+
+.trophy{
+    padding-right: 10px;
+    color: #ffd95b;
+}
+.awardTxt{
+    color: #9d9d9d;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.awards ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.awards li{
+    margin: 10px 0 0 0;
+}
+
+.progress{
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.skills ul{
+    list-style: none;
+    padding: 0;
+}
+
+.progress label {
+    text-align: center;
+    color: #ffd95b;
+}
+
+.bg-info{
+    text-align: left;
+    padding-left: 20px;
+    opacity: .75;
+    transition: all 0.35s ease-in-out;
+
+}
+
+.bg-info:hover{
+    opacity: 1;
+}
+
+.skills{
+    position: relative;
+    right: 0;
+    bottom: 15px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.awards{
+    position: relative;
+    right: 0;
+    bottom: 15px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
