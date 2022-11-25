@@ -2,7 +2,6 @@
   "homepage": "http://siyachoudhary.github.io/siyachoudhary-portfolio",
   "name": "portfolio_page",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@formspree/react": "^2.4.1",
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
