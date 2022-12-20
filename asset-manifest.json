@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/siyachoudhary-portfolio/static/css/main.846806d1.css",
-    "main.js": "/siyachoudhary-portfolio/static/js/main.3add7306.js",
+    "main.js": "/siyachoudhary-portfolio/static/js/main.a04560f1.js",
     "static/js/787.28a6522c.chunk.js": "/siyachoudhary-portfolio/static/js/787.28a6522c.chunk.js",
     "static/media/coffee.png": "/siyachoudhary-portfolio/static/media/coffee.81bf5f7310a1a155d98f.png",
     "static/media/myImg.png": "/siyachoudhary-portfolio/static/media/myImg.141f5674c0db3cc59331.png",
@@ -12,6 +12,7 @@
     "static/media/fullFace.png": "/siyachoudhary-portfolio/static/media/fullFace.020b8a3d76e41ed72e72.png",
     "static/media/coffeeavacado.jpeg": "/siyachoudhary-portfolio/static/media/coffeeavacado.58b78e12f3261327c4d2.jpeg",
     "static/media/Paris.jpeg": "/siyachoudhary-portfolio/static/media/Paris.f849ca227c71f4d2178b.jpeg",
+    "static/media/pets.png": "/siyachoudhary-portfolio/static/media/pets.3f34c6388383e34aa859.png",
     "static/media/quizzania.png": "/siyachoudhary-portfolio/static/media/quizzania.cc667fba64277e952557.png",
     "static/media/hatter.jpeg": "/siyachoudhary-portfolio/static/media/hatter.db34b9e2ce666db27ad5.jpeg",
     "static/media/omni.png": "/siyachoudhary-portfolio/static/media/omni.a4f47bc73d02869da418.png",
@@ -38,11 +39,11 @@
     "static/media/youtube.png": "/siyachoudhary-portfolio/static/media/youtube.9c1034a72f35a85893bb.png",
     "index.html": "/siyachoudhary-portfolio/index.html",
     "main.846806d1.css.map": "/siyachoudhary-portfolio/static/css/main.846806d1.css.map",
-    "main.3add7306.js.map": "/siyachoudhary-portfolio/static/js/main.3add7306.js.map",
+    "main.a04560f1.js.map": "/siyachoudhary-portfolio/static/js/main.a04560f1.js.map",
     "787.28a6522c.chunk.js.map": "/siyachoudhary-portfolio/static/js/787.28a6522c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.846806d1.css",
-    "static/js/main.3add7306.js"
+    "static/js/main.a04560f1.js"
   ]
 }
